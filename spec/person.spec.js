@@ -1,7 +1,7 @@
 require('../spec.helper')
 
 describe("Person", () => {
-    let person = new person({
+    let person = new Person({
         weight: 90,
         height: 186
     })
