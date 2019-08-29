@@ -16,7 +16,7 @@ describe("Person", () => {
 
     it ("should calculate BMI Value", () => {
         person.calculate_bmi();
-        expect(person.bmiValue).to.equal('26.01');
+        expect(person.bmiValue).to.equal(26.01);
     })
 
     it ("should calculate BMI Value", () => {
