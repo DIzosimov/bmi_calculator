@@ -22,9 +22,7 @@ describe('User can calculate BMI using metric system', () => {
 
         await browser.clickOnButton("button")
         let content = await browser.getContent("span[id='display_value']")
-        /*
         expect(content).to.eql('Your BMI is 26.01');
-        */
     });
 });
 
@@ -48,7 +46,6 @@ describe('User can calculate BMI using imperial system', () => {
         await browser.fillIn("input[id='height-in-in']", { with: "70" })
         await browser.clickOnButton("button")
         let content = await browser.getContent("span[id='display_value']")
-
         expect(content).to.eql('Your BMI is 24.39');
     });
 });
