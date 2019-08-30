@@ -1,0 +1,50 @@
+#calculate {
+    text-align: center;
+    background-color: rgba(82, 212, 30, 0.856);
+    border: 6px outset rgba(28,110,164,0.87);
+    display:block;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.5em;
+
+}
+
+#buttonCalculate {
+    color: limegreen;
+    background-color: #da1bcf;
+    font-family: sans-serif, arial;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#metric-inputs {
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#imperial-inputs {
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#my_select {
+    font-size: 15px;
+    font-family: sans-serif, arial;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#display_value {
+    display: block;
+    text-align: center;
+    font-family: sans-serif, arial;
+}
+
+#display_message {
+    display: block;
+    text-align: center;
+    font-family: sans-serif, arial;
+}
